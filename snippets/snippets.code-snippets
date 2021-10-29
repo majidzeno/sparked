@@ -1,0 +1,709 @@
+{
+  // --------------------------------- Spacing -----------------------------------
+	"spacing:4px": {
+		"prefix": ["rem-calc(4px)", "4px"],
+		"body": [
+			"\\$spark-spacing-half-x"
+		],
+		"description": ""
+	},
+  "spacing:8px": {
+		"prefix": ["rem-calc(8px)", "8px"],
+		"body": [
+			"\\$spark-spacing-1x"
+		],
+		"description": ""
+	},
+  "spacing:16px": {
+		"prefix": ["rem-calc(16px)", "16px"],
+		"body": [
+			"\\$spark-spacing-2x"
+		],
+		"description": ""
+	},
+  "spacing:24px": {
+    "prefix": ["rem-calc(24px)", "24px"],
+		"body": [
+			"\\$spark-spacing-3x"
+		],
+		"description": ""
+	},
+  "spacing:32px": {
+    "prefix": ["rem-calc(32px)", "32px"],
+		"body": [
+			"\\$spark-spacing-4x"
+		],
+		"description": ""
+	},
+  "spacing:40px": {
+    "prefix": ["rem-calc(40px)", "40px"],
+		"body": [
+			"\\$spark-spacing-5x"
+		],
+		"description": ""
+	},
+  "spacing:48px": {
+    "prefix": ["rem-calc(48px)", "48px"],
+		"body": [
+			"\\$spark-spacing-6x"
+		],
+		"description": ""
+	},
+  "spacing:56px": {
+    "prefix": ["rem-calc(56px)", "56px"],
+		"body": [
+			"\\$spark-spacing-7x"
+		],
+		"description": ""
+	},
+  "spacing:64px": {
+    "prefix": ["rem-calc(64px)", "64px"],
+		"body": [
+			"\\$spark-spacing-8x"
+		],
+		"description": ""
+	},
+  "spacing:72px": {
+    "prefix": ["rem-calc(72px)", "72px"],
+		"body": [
+			"\\$spark-spacing-9x"
+		],
+		"description": ""
+	},
+  // -----------------------Font Size --------------------------------
+  "font-size: 48px": {
+    "prefix": ["48px"],
+		"body": [
+			"\\$spark-text-font-size-xsuper"
+		],
+		"description": "$spark-text-font-size-xsuper"
+	},
+  "font-size: 32px": {
+    "prefix": ["32px"],
+		"body": [
+			"\\$spark-text-font-size-super"
+		],
+		"description": "$spark-text-font-size-super"
+	},
+  "font-size: 24px": {
+    "prefix": ["24px"],
+		"body": [
+			"\\$spark-text-font-size-xlarge"
+		],
+		"description": "$spark-text-font-size-xlarge"
+	},
+  "font-size: 20px": {
+    "prefix": ["20px"],
+		"body": [
+			"\\$spark-text-font-size-large"
+		],
+		"description": "$spark-text-font-size-large"
+	},
+  "font-size: 16px": {
+    "prefix": ["16px"],
+		"body": [
+			"\\$spark-text-font-size-medium"
+		],
+		"description": "$spark-text-font-size-medium"
+	},
+  "font-size: 14px": {
+    "prefix": ["14px"],
+		"body": [
+			"\\$spark-text-font-size-small"
+		],
+		"description": "$spark-text-font-size-small"
+	},
+  "font-size: 12px": {
+    "prefix": ["12px"],
+		"body": [
+			"\\$spark-text-font-size-xsmall"
+		],
+		"description": "$spark-text-font-size-xsmall"
+	},
+  "font-size: 10px": {
+    "prefix": ["10px"],
+		"body": [
+			"\\$spark-text-font-size-tiny"
+		],
+		"description": "$spark-text-font-size-tiny"
+	},
+  // --------------------------------------- Colors (Blues) ----------------------------------
+  "color: #f4f6f9": {
+    "prefix": ["#f4f6f9"],
+		"body": [
+			"\\$spark-color-navy-blue-lightest"
+		],
+		"description": "$spark-color-navy-blue-lightest"
+	},
+  "color: #e5e9f1": {
+    "prefix": ["#e5e9f1"],
+		"body": [
+			"\\$spark-color-navy-blue-lighter"
+		],
+		"description": "$spark-color-navy-blue-lighter"
+	},
+  "color: #325294": {
+    "prefix": ["#325294"],
+		"body": [
+			"\\$spark-color-navy-blue-light"
+		],
+		"description": "$spark-color-navy-blue-light"
+	},
+  "color: #00287a": {
+    "prefix": ["#00287a"],
+		"body": [
+			"\\$spark-color-navy-blue"
+		],
+		"description": "$spark-color-navy-blue"
+	},
+  "color: #002061": {
+    "prefix": ["#002061"],
+		"body": [
+			"\\$spark-color-navy-blue-dark"
+		],
+		"description": "$spark-color-navy-blue-dark"
+	},
+  "color: #00143d": {
+    "prefix": ["#00143d"],
+		"body": [
+			"\\$spark-color-navy-blue-darker"
+		],
+		"description": "$spark-color-navy-blue-darker"
+	},
+  "color: #333944": {
+    "prefix": ["#333944"],
+		"body": [
+			"\\$spark-color-navy-blue-text"
+		],
+		"description": "$spark-color-navy-blue-text"
+	},
+  "color: #f4faff": {
+    "prefix": ["#f4faff"],
+		"body": [
+			"\\$spark-color-blue-lightest"
+		],
+		"description": "$spark-color-blue-lightest"
+	},
+  "color: #e5f4ff": {
+    "prefix": ["#e5f4ff"],
+		"body": [
+			"\\$spark-color-blue-lighter"
+		],
+		"description": "$spark-spark-color-blue-lighter"
+	},
+  "color: #32adff": {
+    "prefix": ["#32adff"],
+		"body": [
+			"\\$spark-color-blue-light"
+		],
+		"description": "$spark-color-blue-light"
+	},
+  "color: #0099ff": {
+    "prefix": ["#0099ff"],
+		"body": [
+			"\\$spark-color-blue"
+		],
+		"description": "$spark-color-blue"
+	},
+  "color: #0089e5": {
+    "prefix": ["#0089e5"],
+		"body": [
+			"\\$spark-color-blue-dark"
+		],
+		"description": "$spark-color-blue-dark"
+	},
+  "color: #005b99": {
+    "prefix": ["#005b99"],
+		"body": [
+			"\\$spark-color-blue-darker"
+		],
+		"description": "$spark-color-blue-darker"
+	},
+  "color: #28435b": {
+    "prefix": ["#28435b"],
+		"body": [
+			"\\$spark-color-blue-text"
+		],
+		"description": "$spark-color-blue-text"
+	},
+  // --------------------------------------- Colors (Greens) ----------------------------------
+  "color: #f4fcf8": {
+    "prefix": ["#f4fcf8"],
+		"body": [
+			"\\$spark-color-green-lightest"
+		],
+		"description": "$spark-color-green-lightest"
+	},
+  "color: #e5f8ef": {
+    "prefix": ["#e5f8ef"],
+		"body": [
+			"\\$spark-color-green-lighter"
+		],
+		"description": "$spark-color-green-lighter"
+	},
+  "color: #32cb82": {
+    "prefix": ["#32cb82"],
+		"body": [
+			"\\$spark-color-green-light"
+		],
+		"description": "$spark-color-green-light"
+	},
+  "color: #00bf63": {
+    "prefix": ["#00bf63"],
+		"body": [
+			"\\$spark-color-green"
+		],
+		"description": "$spark-color-green"
+	},
+  "color: #00984f": {
+    "prefix": ["#00984f"],
+		"body": [
+			"\\$spark-color-green-dark"
+		],
+		"description": "$spark-color-green-dark"
+	},
+  "color: #005f31": {
+    "prefix": ["#005f31"],
+		"body": [
+			"\\$spark-color-green-darker"
+		],
+		"description": "$spark-color-green-darker"
+	},
+  "color: #32503c": {
+    "prefix": ["#32503c"],
+		"body": [
+			"\\$spark-color-green-text"
+		],
+		"description": "$spark-color-green-text"
+	},
+  // --------------------------------------- Colors (Yellows) ----------------------------------
+  "color: #fffcf4": {
+    "prefix": ["#fffcf4"],
+		"body": [
+			"\\$spark-color-yellow-lightest"
+		],
+		"description": "$spark-color-yellow-lightest"
+	},
+  "color: #fff8e5": {
+    "prefix": ["#fff8e5"],
+		"body": [
+			"\\$spark-color-yellow-lighter"
+		],
+		"description": "$spark-color-yellow-lighter"
+	},
+  "color: #ffc932": {
+    "prefix": ["#ffc932"],
+		"body": [
+			"\\$spark-color-yellow-light"
+		],
+		"description": "$spark-color-yellow-light"
+	},
+  "color: #ffbc00": {
+    "prefix": ["#ffbc00"],
+		"body": [
+			"\\$spark-color-yellow"
+		],
+		"description": "$spark-color-yellow"
+	},
+  "color: #cc9600": {
+    "prefix": ["#cc9600"],
+		"body": [
+			"\\$spark-color-yellow-dark"
+		],
+		"description": "$spark-color-yellow-dark"
+	},
+  "color: #7f5e00": {
+    "prefix": ["#7f5e00"],
+		"body": [
+			"\\$spark-color-yellow-darker"
+		],
+		"description": "$spark-color-yellow-darker"
+	},
+  "color: #604f36": {
+    "prefix": ["#604f36"],
+		"body": [
+			"\\$spark-color-yellow-text"
+		],
+		"description": "$spark-color-yellow-text"
+	},
+  // --------------------------------------- Colors (Oranges) ----------------------------------
+  "color: #fffbf4": {
+    "prefix": ["#fffbf4"],
+		"body": [
+			"\\$spark-color-orange-lightest"
+		],
+		"description": "$spark-color-orange-lightest"
+	},
+  "color: #fff6e5": {
+    "prefix": ["#fff6e5"],
+		"body": [
+			"\\$spark-color-orange-lighter"
+		],
+		"description": "$spark-color-orange-lighter"
+	},
+  "color: #ffa232": {
+    "prefix": ["#ffa232"],
+		"body": [
+			"\\$spark-color-orange-light"
+		],
+		"description": "$spark-color-orange-light"
+	},
+  "color: #ffa500": {
+    "prefix": ["#ffa500"],
+		"body": [
+			"\\$spark-color-orange"
+		],
+		"description": "$spark-color-orange"
+	},
+  "color: #cc8400": {
+    "prefix": ["#cc8400"],
+		"body": [
+			"\\$spark-color-orange-dark"
+		],
+		"description": "$spark-color-orange-dark"
+	},
+  "color: #7f5200": {
+    "prefix": ["#7f5200"],
+		"body": [
+			"\\$spark-color-orange-darker"
+		],
+		"description": "$spark-color-orange-darker"
+	},
+  "color: #624b35": {
+    "prefix": ["#624b35"],
+		"body": [
+			"\\$spark-color-orange-text"
+		],
+		"description": "$spark-color-orange-text"
+	},
+// --------------------------------------- Colors (Reds) ----------------------------------
+  "color: #fef7f5": {
+    "prefix": ["#fef7f5"],
+		"body": [
+			"\\$spark-color-red-lightest"
+		],
+		"description": "$spark-color-red-lightest"
+	},
+  "color: #fdece8": {
+    "prefix": ["#fdece8"],
+		"body": [
+			"\\$spark-color-red-lighter"
+		],
+		"description": "$spark-color-red-lighter"
+	},
+  "color: #f4674c": {
+    "prefix": ["#f4674c"],
+		"body": [
+			"\\$spark-color-red-light"
+		],
+		"description": "$spark-color-red-light"
+	},
+  "color: #f24220": {
+    "prefix": ["#f24220"],
+		"body": [
+			"\\$spark-color-red"
+		],
+		"description": "$spark-color-red"
+	},
+  "color: #c13419": {
+    "prefix": ["#c13419"],
+		"body": [
+			"\\$spark-color-red-dark"
+		],
+		"description": "$spark-color-red-dark"
+	},
+  "color: #792110": {
+    "prefix": ["#792110"],
+		"body": [
+			"\\$spark-color-red-darker"
+		],
+		"description": "$spark-color-red-darker"
+	},
+  "color: #603a36": {
+    "prefix": ["#603a36"],
+		"body": [
+			"\\$spark-color-red-text"
+		],
+		"description": "$spark-color-red-text"
+	},
+// --------------------------------------- Colors (Skys) ----------------------------------
+  "color: #ffffff": {
+    "prefix": ["#ffffff"],
+		"body": [
+			"\\$spark-color-sky-white"
+		],
+		"description": "$spark-color-sky-white"
+	},
+  "color: #fcfcfd": {
+    "prefix": ["#fcfcfd"],
+		"body": [
+			"\\$spark-color-sky-lightest"
+		],
+		"description": "$spark-color-sky-lightest"
+	},
+  "color: #f9fafc": {
+    "prefix": ["#f9fafc"],
+		"body": [
+			"\\$spark-color-sky-lighter"
+		],
+		"description": "$spark-color-sky-lighter"
+	},
+  "color: #f2f4f8": {
+    "prefix": ["#f2f4f8"],
+		"body": [
+			"\\$spark-color-sky-light"
+		],
+		"description": "$spark-color-sky-light"
+	},
+  "color: #dcdee3": {
+    "prefix": ["#dcdee3"],
+		"body": [
+			"\\$spark-color-sky-dark"
+		],
+		"description": "$spark-color-sky-dark"
+	},
+  "color: #b7bac0": {
+    "prefix": ["#b7bac0"],
+		"body": [
+			"\\$spark-color-sky-darker"
+		],
+		"description": "$spark-color-sky-darker"
+	},
+// --------------------------------------- Colors (Ink) ----------------------------------
+
+  "color: #a1a7b2": {
+    "prefix": ["#a1a7b2"],
+		"body": [
+			"\\$spark-color-ink-lightest"
+		],
+		"description": "$spark-color-ink-lightest"
+	},
+  "color: #737c8b": {
+    "prefix": ["#737c8b"],
+		"body": [
+			"\\$spark-color-ink-lighter"
+		],
+		"description": "$spark-color-ink-lighter"
+	},
+  "color: #445065": {
+    "prefix": ["#445065"],
+		"body": [
+			"\\$spark-color-ink-light"
+		],
+		"description": "$spark-color-ink-light"
+	},
+  "color: #16253f": {
+    "prefix": ["#16253f"],
+		"body": [
+			"\\$spark-color-ink"
+		],
+		"description": "$spark-color-ink"
+	},
+// --------------------------------------- Colors (Ink) ----------------------------------
+
+  "color: #e5e5e5": {
+    "prefix": ["#e5e5e5"],
+		"body": [
+			"\\$spark-color-black-lightest"
+		],
+		"description": "$spark-color-black-lightest"
+	},
+  "color: #999999": {
+    "prefix": ["#999999"],
+		"body": [
+			"\\$spark-color-black-lighter"
+		],
+		"description": "$spark-color-black-lighter"
+	},
+  "color: #4c4c4c": {
+    "prefix": ["#4c4c4c"],
+		"body": [
+			"\\$spark-color-black-light"
+		],
+		"description": "$spark-color-black-light"
+	},
+  "color: #000000": {
+    "prefix": ["#000000"],
+		"body": [
+			"\\$spark-color-black"
+		],
+		"description": "$spark-color-black"
+	},
+// --------------------------------------- Colors (Greys) ----------------------------------
+  "color: #f2f2f2": {
+    "prefix": ["#f2f2f2"],
+		"body": [
+			"\\$spark-color-grey-lightest"
+		],
+		"description": "$spark-color-grey-lightest"
+	},
+  "color: #cccccc": {
+    "prefix": ["#cccccc"],
+		"body": [
+			"\\$spark-color-grey-lighter"
+		],
+		"description": "$spark-color-grey-lighter"
+	},
+  "color: #a6a6a6": {
+    "prefix": ["#a6a6a6"],
+		"body": [
+			"\\$spark-color-grey-light"
+		],
+		"description": "$spark-color-grey-light"
+	},
+  "color: #808080": {
+    "prefix": ["#808080"],
+		"body": [
+			"\\$spark-color-grey"
+		],
+		"description": "$spark-color-grey"
+	},
+  "color: transparent": {
+    "prefix": ["transparent"],
+		"body": [
+			"\\$spark-color-transparent"
+		],
+		"description": "$spark-color-transparent"
+	},
+// --------------------------------------- Colors (Sequential) ----------------------------------
+  "color: #043489": {
+    "prefix": ["#043489"],
+		"body": [
+			"\\$spark-color-sequential-1"
+		],
+		"description": "$spark-color-sequential-1"
+	},
+  "color: #094ca5": {
+    "prefix": ["#094ca5"],
+		"body": [
+			"\\$spark-color-sequential-2"
+		],
+		"description": "$spark-color-sequential-2"
+	},
+  "color: #0b58b3": {
+    "prefix": ["#0b58b3"],
+		"body": [
+			"\\$spark-color-sequential-3"
+		],
+		"description": "$spark-color-sequential-3"
+	},
+  "color: #0b6ecd": {
+    "prefix": ["#0b6ecd"],
+		"body": [
+			"\\$spark-color-sequential-4"
+		],
+		"description": "$spark-color-sequential-4"
+	},
+  "color: #0a78d9": {
+    "prefix": ["#0a78d9"],
+		"body": [
+			"\\$spark-color-sequential-5"
+		],
+		"description": "$spark-color-sequential-5"
+	},
+  "color: #2285dc": {
+    "prefix": ["#2285dc"],
+		"body": [
+			"\\$spark-color-sequential-6"
+		],
+		"description": "$spark-color-sequential-6"
+	},
+  "color: #3a93e0": {
+    "prefix": ["#3a93e0"],
+		"body": [
+			"\\$spark-color-sequential-7"
+		],
+		"description": "$spark-color-sequential-7"
+	},
+  "color: #53a0e4": {
+    "prefix": ["#53a0e4"],
+		"body": [
+			"\\$spark-color-sequential-8"
+		],
+		"description": "$spark-color-sequential-8"
+	},
+  "color: #6caee8": {
+    "prefix": ["#6caee8"],
+		"body": [
+			"\\$spark-color-sequential-9"
+		],
+		"description": "$spark-color-sequential-9"
+	},
+  "color: #84bbec": {
+    "prefix": ["#84bbec"],
+		"body": [
+			"\\$spark-color-sequential-10"
+		],
+		"description": "$spark-color-sequential-10"
+	},
+  "color: #9dc9ef": {
+    "prefix": ["#9dc9ef"],
+		"body": [
+			"\\$spark-color-sequential-11"
+		],
+		"description": "$spark-color-sequential-11"
+	},
+  "color: #b5d6f3": {
+    "prefix": ["#b5d6f3"],
+		"body": [
+			"\\$spark-color-sequential-12"
+		],
+		"description": "$spark-color-sequential-12"
+	},
+  "color: #cee4f7": {
+    "prefix": ["#cee4f7"],
+		"body": [
+			"\\$spark-color-sequential-13"
+		],
+		"description": "$spark-color-sequential-13"
+	},
+  "color: #e6f1fb": {
+    "prefix": ["#e6f1fb"],
+		"body": [
+			"\\$spark-color-sequential-14"
+		],
+		"description": "$spark-color-sequential-14"
+	},
+  "color: #7f93bc": {
+    "prefix": ["#7f93bc"],
+		"body": [
+			"\\$spark-color-categorical-navy-blue"
+		],
+		"description": "$spark-color-categorical-navy-blue"
+	},
+  "color: #7fccff": {
+    "prefix": ["#7fccff"],
+		"body": [
+			"\\$spark-color-categorical-blue"
+		],
+		"description": "$spark-color-categorical-blue"
+	},
+  "color: #7fdfb1": {
+    "prefix": ["#7fdfb1"],
+		"body": [
+			"\\$spark-color-categorical-green"
+		],
+		"description": "$spark-color-categorical-green"
+	},
+  "color: #ffdd7f": {
+    "prefix": ["#ffdd7f"],
+		"body": [
+			"\\$spark-color-categorical-yellow"
+		],
+		"description": "$spark-color-categorical-yellow"
+	},
+  "color: #ffc57f": {
+    "prefix": ["#ffc57f"],
+		"body": [
+			"\\$spark-color-categorical-orange"
+		],
+		"description": "$spark-color-categorical-orange"
+	},
+  "color: #f8a08f": {
+    "prefix": ["#f8a08f"],
+		"body": [
+			"\\$spark-color-categorical-red"
+		],
+		"description": "$spark-color-categorical-red"
+	},
+}
