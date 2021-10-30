@@ -12,7 +12,9 @@ These snippets were built to supercharge a workflow in the most seamless manner 
 
 This repo was built particularly for real world use. It focuses on developer ergonomics from the point of Sparkui of real world use. Included are the pieces I personally get sick of typing, and boilerplate that is helpful to stub out quickly.
 
-![SnippetDemo]("images/sparked-demo.gif")
+<p align="center">
+  <img width="100" src="images/sparked-demo.gif" alt="sparked-demo">
+</p>
 
 ## Snippets
 Currently available shortcuts
