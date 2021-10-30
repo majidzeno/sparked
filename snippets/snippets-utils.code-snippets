@@ -1,0 +1,114 @@
+{
+  // --------------------------------- Paddings -----------------------------------
+	"top-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-top-padding--1x"
+		],
+		"description": "⬆️ Top Padding",
+	},
+
+	"bottom-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-bottom-padding--1x"
+		],
+		"description": "⬇️ Bottom Padding",
+	},
+
+	"left-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-left-padding--1x"
+		],
+		"description": "⬅ Left Padding",
+	},
+
+	"right-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-right-padding--1x"
+		],
+		"description": "➡ Right padding",
+	},
+
+	"letter-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-letter-padding--1x"
+		],
+		"description": "Up and Down Padding",
+	},
+
+	"pillar-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-pillar-padding--1x"
+		],
+		"description": "Left and Right Padding",
+	},
+
+	"window-padding": {
+		"prefix": ["padding"],
+		"body": [
+			"u-window-padding--1x"
+		],
+		"description": "Element Padding",
+	},
+// --------------------------------- Margins -----------------------------------
+"top-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-top-margin--1x"
+	],
+	"description": "⬆️ Top Margin",
+},
+
+"bottom-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-bottom-margin--1x"
+	],
+	"description": "⬇️ Bottom Margin",
+},
+
+"left-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-left-margin--1x"
+	],
+	"description": "⬅ Left Margin",
+},
+
+"right-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-right-margin--1x"
+	],
+	"description": "➡ Right Margin",
+},
+
+"letter-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-letter-margin--1x"
+	],
+	"description": "Up and Down Margin",
+},
+
+"pillar-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-pillar-margin--1x"
+	],
+	"description": "Left and Right Margin",
+},
+
+"window-margin": {
+	"prefix": ["margin"],
+	"body": [
+		"u-window-margin--1x"
+	],
+	"description": "Element Margin",
+},
+}
