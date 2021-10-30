@@ -2,7 +2,10 @@
 
 Sparked is an extension that helps you adopt Sparkui design system units.
 
-![sparked-hero](sparked logo goes here)
+`<p align="center">
+  <img width="100" src="https://github.com/majidzeno/sparked/blob/master/images/sparked-logo.png" alt="sparked-hero">
+</p>`
+
 
 ## Description
 
