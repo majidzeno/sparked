@@ -8,7 +8,7 @@
         "type": "git",
         "url": "git@github.com:majidzeno/sparked.git"
       },
-    "icon": "images/sparked-logo.png",
+    "icon": "https://github.com/majidzeno/sparked/blob/master/images/sparked-logo.png",
     "engines": {
         "vscode": "^1.61.0"
     },
