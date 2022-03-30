@@ -1,4 +1,33 @@
 {
+  // --------------------------------- Border Radius -----------------------------------
+	"border-radius:4px": {
+		"prefix": ["rem-calc(4px)", "4px"],
+		"body": [
+			"\\$spark-border-radius"
+		],
+		"description": "$spark-border-radius"
+	},
+	"border-radius:2px": {
+		"prefix": ["rem-calc(2px)", "2px"],
+		"body": [
+			"\\$spark-border-radius-small"
+		],
+		"description": "$spark-border-radius-small"
+	},
+	"border-radius:6px": {
+		"prefix": ["rem-calc(6px)", "6px"],
+		"body": [
+			"\\$spark-border-radius-medium"
+		],
+		"description": "$spark-border-radius-medium"
+	},
+	"border-radius:30em": {
+		"prefix": ["30em"],
+		"body": [
+			"\\$spark-border-radius-rounded"
+		],
+		"description": "$spark-border-radius-rounded"
+	},
   // --------------------------------- Spacing -----------------------------------
 	"spacing:4px": {
 		"prefix": ["rem-calc(4px)", "4px"],
