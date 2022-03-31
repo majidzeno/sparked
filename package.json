@@ -2,8 +2,8 @@
     "name": "sparked",
     "displayName": "sparked",
     "description": "sparked is an extension that helps you adopt our design system units faster",
-    "version": "0.0.3",
-    "publisher": "Majideltayeb",
+    "version": "0.0.4",
+    "publisher": "majideltayeb",
     "repository": "https://github.com/majidzeno/sparked",
     "icon": "images/sparked-logo.png",
     "engines": {
