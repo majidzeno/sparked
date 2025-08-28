@@ -206,6 +206,20 @@
 		],
 		"description": "$spark-color-navy-blue-text"
 	},
+	"color: #f4f9ff": {
+    "prefix": ["#f4f9ff"],
+		"body": [
+			"\\$spark-color-blue-25"
+		],
+		"description": "$spark-color-blue-25"
+	},
+	"color: #e7f3ff": {
+    "prefix": ["#e7f3ff"],
+		"body": [
+			"\\$spark-color-blue-50"
+		],
+		"description": "$spark-color-blue-50"
+	},
   "color: #cee7fe": {
     "prefix": ["#cee7fe"],
 		"body": [
