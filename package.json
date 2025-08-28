@@ -6,6 +6,10 @@
     "publisher": "majideltayeb",
     "repository": "https://github.com/majidzeno/sparked",
     "icon": "images/sparked-logo.png",
+    "main": "./extension.js",
+    "activationEvents": [
+        "onCommand:sparked.showSnippets"
+    ],
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -13,6 +17,20 @@
         "Snippets"
     ],
     "contributes": {
+        "commands": [
+            {
+                "command": "sparked.showSnippets",
+                "title": "Show Sparked Snippets",
+                "category": "Sparked"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "sparked.showSnippets",
+                "key": "shift+tab",
+                "when": "editorTextFocus"
+            }
+        ],
         "snippets": [
             {
                 "language": "",
