@@ -206,43 +206,43 @@
 		],
 		"description": "$spark-color-navy-blue-text"
 	},
-  "color: #f4faff": {
-    "prefix": ["#f4faff"],
+  "color: #cee7fe": {
+    "prefix": ["#cee7fe"],
 		"body": [
-			"\\$spark-color-blue-lightest"
+			"\\$spark-color-blue-100"
 		],
-		"description": "$spark-color-blue-lightest"
+		"description": "$spark-color-blue-100"
 	},
-  "color: #e5f4ff": {
-    "prefix": ["#e5f4ff"],
+  "color: #9dd0fe": {
+    "prefix": ["#9dd0fe"],
 		"body": [
-			"\\$spark-color-blue-lighter"
+			"\\$spark-color-blue-200"
 		],
-		"description": "$spark-spark-color-blue-lighter"
+		"description": "$spark-spark-color-blue-200"
 	},
-  "color: #32adff": {
-    "prefix": ["#32adff"],
+  "color: #6cb8fd": {
+    "prefix": ["#6cb8fd"],
 		"body": [
 			"\\$spark-color-blue-light"
 		],
 		"description": "$spark-color-blue-light"
 	},
-  "color: #0099ff": {
-    "prefix": ["#0099ff"],
+  "color: #3ba1fd": {
+    "prefix": ["#3ba1fd"],
 		"body": [
 			"\\$spark-color-blue"
 		],
 		"description": "$spark-color-blue"
 	},
-  "color: #0089e5": {
-    "prefix": ["#0089e5"],
+  "color: #0a89fc": {
+    "prefix": ["#0a89fc"],
 		"body": [
 			"\\$spark-color-blue-dark"
 		],
 		"description": "$spark-color-blue-dark"
 	},
-  "color: #005b99": {
-    "prefix": ["#005b99"],
+  "color: #0056c9": {
+    "prefix": ["#0056c9"],
 		"body": [
 			"\\$spark-color-blue-darker"
 		],
