@@ -156,6 +156,28 @@
 		],
 		"description": "$spark-text-font-size-tiny"
 	},
+  // -----------------------Font Weight --------------------------------
+  "font-weight: normal": {
+    "prefix": ["normal"],
+		"body": [
+			"\\$spark-text-font-weight-normal"
+		],
+		"description": "$spark-text-font-weight-normal"
+	},
+  "font-weight: semibold": {
+    "prefix": ["semibold", "600"],
+		"body": [
+			"\\$spark-text-font-weight-semibold"
+		],
+		"description": "$spark-text-font-weight-semibold"
+	},
+  "font-weight: bold": {
+    "prefix": ["bold"],
+		"body": [
+			"\\$spark-text-font-weight-bold"
+		],
+		"description": "$spark-text-font-weight-bold"
+	},
   // --------------------------------------- Colors (Blues) ----------------------------------
   "color: #f4f6f9": {
     "prefix": ["#f4f6f9"],
@@ -206,47 +228,61 @@
 		],
 		"description": "$spark-color-navy-blue-text"
 	},
-  "color: #f4faff": {
-    "prefix": ["#f4faff"],
+	"color: #f4f9ff": {
+    "prefix": ["#f4f9ff"],
 		"body": [
-			"\\$spark-color-blue-lightest"
+			"\\$spark-color-blue-25"
 		],
-		"description": "$spark-color-blue-lightest"
+		"description": "$spark-color-blue-25"
 	},
-  "color: #e5f4ff": {
-    "prefix": ["#e5f4ff"],
+	"color: #e7f3ff": {
+    "prefix": ["#e7f3ff"],
 		"body": [
-			"\\$spark-color-blue-lighter"
+			"\\$spark-color-blue-50"
 		],
-		"description": "$spark-spark-color-blue-lighter"
+		"description": "$spark-color-blue-50"
 	},
-  "color: #32adff": {
-    "prefix": ["#32adff"],
+  "color: #cee7fe": {
+    "prefix": ["#cee7fe"],
 		"body": [
-			"\\$spark-color-blue-light"
+			"\\$spark-color-blue-100"
 		],
-		"description": "$spark-color-blue-light"
+		"description": "$spark-color-blue-100"
 	},
-  "color: #0099ff": {
-    "prefix": ["#0099ff"],
+  "color: #9dd0fe": {
+    "prefix": ["#9dd0fe"],
 		"body": [
-			"\\$spark-color-blue"
+			"\\$spark-color-blue-200"
 		],
-		"description": "$spark-color-blue"
+		"description": "$spark-spark-color-blue-200"
 	},
-  "color: #0089e5": {
-    "prefix": ["#0089e5"],
+  "color: #6cb8fd": {
+    "prefix": ["#6cb8fd"],
 		"body": [
-			"\\$spark-color-blue-dark"
+			"\\$spark-color-blue-300"
 		],
-		"description": "$spark-color-blue-dark"
+		"description": "$spark-color-blue-300"
 	},
-  "color: #005b99": {
-    "prefix": ["#005b99"],
+  "color: #3ba1fd": {
+    "prefix": ["#3ba1fd"],
 		"body": [
-			"\\$spark-color-blue-darker"
+			"\\$spark-color-blue-400"
 		],
-		"description": "$spark-color-blue-darker"
+		"description": "$spark-color-blue-400"
+	},
+  "color: #0a89fc": {
+    "prefix": ["#0a89fc"],
+		"body": [
+			"\\$spark-color-blue-500"
+		],
+		"description": "$spark-color-blue-500"
+	},
+  "color: #0056c9": {
+    "prefix": ["#0056c9"],
+		"body": [
+			"\\$spark-color-blue-600"
+		],
+		"description": "$spark-color-blue-600"
 	},
   "color: #28435b": {
     "prefix": ["#28435b"],
