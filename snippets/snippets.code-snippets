@@ -223,30 +223,30 @@
   "color: #6cb8fd": {
     "prefix": ["#6cb8fd"],
 		"body": [
-			"\\$spark-color-blue-light"
+			"\\$spark-color-blue-300"
 		],
-		"description": "$spark-color-blue-light"
+		"description": "$spark-color-blue-300"
 	},
   "color: #3ba1fd": {
     "prefix": ["#3ba1fd"],
 		"body": [
-			"\\$spark-color-blue"
+			"\\$spark-color-blue-400"
 		],
-		"description": "$spark-color-blue"
+		"description": "$spark-color-blue-400"
 	},
   "color: #0a89fc": {
     "prefix": ["#0a89fc"],
 		"body": [
-			"\\$spark-color-blue-dark"
+			"\\$spark-color-blue-500"
 		],
-		"description": "$spark-color-blue-dark"
+		"description": "$spark-color-blue-500"
 	},
   "color: #0056c9": {
     "prefix": ["#0056c9"],
 		"body": [
-			"\\$spark-color-blue-darker"
+			"\\$spark-color-blue-600"
 		],
-		"description": "$spark-color-blue-darker"
+		"description": "$spark-color-blue-600"
 	},
   "color: #28435b": {
     "prefix": ["#28435b"],
