@@ -156,6 +156,28 @@
 		],
 		"description": "$spark-text-font-size-tiny"
 	},
+  // -----------------------Font Weight --------------------------------
+  "font-weight: normal": {
+    "prefix": ["normal"],
+		"body": [
+			"\\$spark-text-font-weight-normal"
+		],
+		"description": "$spark-text-font-weight-normal"
+	},
+  "font-weight: semibold": {
+    "prefix": ["semibold", "600"],
+		"body": [
+			"\\$spark-text-font-weight-semibold"
+		],
+		"description": "$spark-text-font-weight-semibold"
+	},
+  "font-weight: bold": {
+    "prefix": ["bold"],
+		"body": [
+			"\\$spark-text-font-weight-bold"
+		],
+		"description": "$spark-text-font-weight-bold"
+	},
   // --------------------------------------- Colors (Blues) ----------------------------------
   "color: #f4f6f9": {
     "prefix": ["#f4f6f9"],
