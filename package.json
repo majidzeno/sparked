@@ -2,13 +2,14 @@
     "name": "sparked",
     "displayName": "sparked",
     "description": "sparked is an extension that helps you adopt our design system units faster",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "majideltayeb",
     "repository": "https://github.com/majidzeno/sparked",
     "icon": "images/sparked-logo.png",
     "main": "./extension.js",
     "activationEvents": [
-        "onCommand:sparked.showSnippets"
+        "onCommand:sparked.showSnippets",
+        "onLanguage:*"
     ],
     "engines": {
         "vscode": "^1.61.0"
@@ -29,16 +30,6 @@
                 "command": "sparked.showSnippets",
                 "key": "shift+tab",
                 "when": "editorTextFocus"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "",
-                "path": "./snippets/snippets-utils.code-snippets"
             }
         ]
     }
