@@ -1,45 +1,26 @@
 {
     "name": "sparked",
     "displayName": "sparked",
-    "description": "Sparked provides inline suggestions to help you adopt Sparkui design system units seamlessly. Automatically suggests and replaces values with design system variables.",
-    "version": "0.0.9",
+    "description": "sparked is an extension that helps you adopt our design system units faster",
+    "version": "0.0.5",
     "publisher": "majideltayeb",
     "repository": "https://github.com/majidzeno/sparked",
     "icon": "images/sparked-logo.png",
-    "main": "./extension.js",
-    "activationEvents": [
-        "onCommand:sparked.showSnippets",
-        "onLanguage:css",
-        "onLanguage:scss",
-        "onLanguage:sass",
-        "onLanguage:less",
-        "onLanguage:javascript",
-        "onLanguage:typescript",
-        "onLanguage:jsx",
-        "onLanguage:tsx",
-        "onLanguage:vue",
-        "onLanguage:vue-html"
-    ],
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
-        "Snippets",
-        "Other"
+        "Snippets"
     ],
     "contributes": {
-        "commands": [
+        "snippets": [
             {
-                "command": "sparked.showSnippets",
-                "title": "Show Sparked Snippets",
-                "category": "Sparked"
-            }
-        ],
-        "keybindings": [
+                "language": "",
+                "path": "./snippets/snippets.code-snippets"
+            },
             {
-                "command": "sparked.showSnippets",
-                "key": "shift+tab",
-                "when": "editorTextFocus"
+                "language": "",
+                "path": "./snippets/snippets-utils.code-snippets"
             }
         ]
     }
