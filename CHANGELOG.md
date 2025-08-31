@@ -4,7 +4,7 @@ All notable changes to the "sparked" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.6]
+## [0.0.10]
 
 - Reverted to snippets-only approach for better reliability
 - Added case sensitivity support for all color hex codes (works with both lowercase and uppercase)
