@@ -9,7 +9,16 @@
     "main": "./extension.js",
     "activationEvents": [
         "onCommand:sparked.showSnippets",
-        "onLanguage:*"
+        "onLanguage:css",
+        "onLanguage:scss",
+        "onLanguage:sass",
+        "onLanguage:less",
+        "onLanguage:javascript",
+        "onLanguage:typescript",
+        "onLanguage:jsx",
+        "onLanguage:tsx",
+        "onLanguage:vue",
+        "onLanguage:vue-html"
     ],
     "engines": {
         "vscode": "^1.61.0"
