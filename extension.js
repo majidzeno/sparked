@@ -232,24 +232,54 @@ const snippets = {
 
 class SparkedCompletionProvider {
     provideCompletionItems(document, position, token, context) {
+        const completionItems = [];
+        
         // Get the current word at cursor position
         const wordRange = document.getWordRangeAtPosition(position);
-        if (!wordRange) {
-            return [];
+        let currentWord = '';
+        let range = null;
+        
+        if (wordRange) {
+            currentWord = document.getText(wordRange);
+            range = wordRange;
+        } else {
+            // If no word range, try to get the word before the cursor
+            const line = document.lineAt(position);
+            const lineText = line.text;
+            const charBefore = lineText.charAt(position.character - 1);
+            
+            // Check if we're at a valid position for suggestions
+            if (charBefore && !charBefore.match(/\s/)) {
+                // Find the start of the current word
+                let start = position.character - 1;
+                while (start > 0 && !lineText.charAt(start - 1).match(/\s/)) {
+                    start--;
+                }
+                
+                if (start < position.character) {
+                    currentWord = lineText.substring(start, position.character);
+                    range = new vscode.Range(position.line, start, position.line, position.character);
+                }
+            }
         }
         
-        const currentWord = document.getText(wordRange);
         if (!currentWord) {
             return [];
         }
         
-        const completionItems = [];
+        if (!range) {
+            // If no range, create one from the current position
+            range = new vscode.Range(position.line, position.character, position.line, position.character);
+        }
         
         // Find matching snippets
         for (const [key, value] of Object.entries(snippets)) {
+            // More aggressive matching - show suggestions for partial matches
             if (key.toLowerCase().includes(currentWord.toLowerCase()) || 
                 currentWord.toLowerCase().includes(key.toLowerCase()) ||
-                key.toLowerCase() === currentWord.toLowerCase()) {
+                key.toLowerCase() === currentWord.toLowerCase() ||
+                key.toLowerCase().startsWith(currentWord.toLowerCase()) ||
+                currentWord.toLowerCase().startsWith(key.toLowerCase())) {
                 
                 const item = new vscode.CompletionItem(
                     value,
@@ -260,7 +290,7 @@ class SparkedCompletionProvider {
                 item.documentation = `Replace "${key}" with "${value}"`;
                 item.insertText = value;
                 item.sortText = '0'; // Ensure our suggestions appear first
-                item.range = wordRange; // Replace the current word
+                item.range = range; // Replace the current word
                 
                 completionItems.push(item);
             }
@@ -268,12 +298,17 @@ class SparkedCompletionProvider {
         
         return completionItems;
     }
+    
+    resolveCompletionItem(item, token) {
+        return item;
+    }
 }
 
 function activate(context) {
-    // Register the completion provider
+    // Register the completion provider for specific languages
+    const languages = ['css', 'scss', 'sass', 'less', 'javascript', 'typescript', 'vue', 'vue-html', 'html'];
     const completionProvider = vscode.languages.registerCompletionItemProvider(
-        ['*'], // All languages
+        languages,
         new SparkedCompletionProvider()
     );
     
