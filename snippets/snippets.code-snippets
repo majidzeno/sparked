@@ -180,112 +180,112 @@
 	},
   // --------------------------------------- Colors (Blues) ----------------------------------
   "color: #f4f6f9": {
-    "prefix": ["#f4f6f9"],
+    "prefix": ["#f4f6f9", "#F4F6F9"],
 		"body": [
 			"\\$spark-color-navy-blue-lightest"
 		],
 		"description": "$spark-color-navy-blue-lightest"
 	},
   "color: #e5e9f1": {
-    "prefix": ["#e5e9f1"],
+    "prefix": ["#e5e9f1", "#E5E9F1"],
 		"body": [
 			"\\$spark-color-navy-blue-lighter"
 		],
 		"description": "$spark-color-navy-blue-lighter"
 	},
   "color: #325294": {
-    "prefix": ["#325294"],
+    "prefix": ["#325294", "#325294"],
 		"body": [
 			"\\$spark-color-navy-blue-light"
 		],
 		"description": "$spark-color-navy-blue-light"
 	},
   "color: #00287a": {
-    "prefix": ["#00287a"],
+    "prefix": ["#00287a", "#00287A"],
 		"body": [
 			"\\$spark-color-navy-blue"
 		],
 		"description": "$spark-color-navy-blue"
 	},
   "color: #002061": {
-    "prefix": ["#002061"],
+    "prefix": ["#002061", "#002061"],
 		"body": [
 			"\\$spark-color-navy-blue-dark"
 		],
 		"description": "$spark-color-navy-blue-dark"
 	},
   "color: #00143d": {
-    "prefix": ["#00143d"],
+    "prefix": ["#00143d", "#00143D"],
 		"body": [
 			"\\$spark-color-navy-blue-darker"
 		],
 		"description": "$spark-color-navy-blue-darker"
 	},
   "color: #333944": {
-    "prefix": ["#333944"],
+    "prefix": ["#333944", "#333944"],
 		"body": [
 			"\\$spark-color-navy-blue-text"
 		],
 		"description": "$spark-color-navy-blue-text"
 	},
 	"color: #f4f9ff": {
-    "prefix": ["#f4f9ff"],
+    "prefix": ["#f4f9ff", "#F4F9FF"],
 		"body": [
 			"\\$spark-color-blue-25"
 		],
 		"description": "$spark-color-blue-25"
 	},
 	"color: #e7f3ff": {
-    "prefix": ["#e7f3ff"],
+    "prefix": ["#e7f3ff", "#E7F3FF"],
 		"body": [
 			"\\$spark-color-blue-50"
 		],
 		"description": "$spark-color-blue-50"
 	},
   "color: #cee7fe": {
-    "prefix": ["#cee7fe"],
+    "prefix": ["#cee7fe", "#CEE7FE"],
 		"body": [
 			"\\$spark-color-blue-100"
 		],
 		"description": "$spark-color-blue-100"
 	},
   "color: #9dd0fe": {
-    "prefix": ["#9dd0fe"],
+    "prefix": ["#9dd0fe", "#9DD0FE"],
 		"body": [
 			"\\$spark-color-blue-200"
 		],
-		"description": "$spark-spark-color-blue-200"
+		"description": "$spark-color-blue-200"
 	},
   "color: #6cb8fd": {
-    "prefix": ["#6cb8fd"],
+    "prefix": ["#6cb8fd", "#6CB8FD"],
 		"body": [
 			"\\$spark-color-blue-300"
 		],
 		"description": "$spark-color-blue-300"
 	},
   "color: #3ba1fd": {
-    "prefix": ["#3ba1fd"],
+    "prefix": ["#3ba1fd", "#3BA1FD"],
 		"body": [
 			"\\$spark-color-blue-400"
 		],
 		"description": "$spark-color-blue-400"
 	},
   "color: #0a89fc": {
-    "prefix": ["#0a89fc"],
+    "prefix": ["#0a89fc", "#0A89FC"],
 		"body": [
 			"\\$spark-color-blue-500"
 		],
 		"description": "$spark-color-blue-500"
 	},
   "color: #0056c9": {
-    "prefix": ["#0056c9"],
+    "prefix": ["#0056c9", "#0056C9"],
 		"body": [
 			"\\$spark-color-blue-600"
 		],
 		"description": "$spark-color-blue-600"
 	},
   "color: #28435b": {
-    "prefix": ["#28435b"],
+    "prefix": ["#28435b", "#28435B"],
 		"body": [
 			"\\$spark-color-blue-text"
 		],
@@ -293,49 +293,49 @@
 	},
   // --------------------------------------- Colors (Greens) ----------------------------------
   "color: #f4fcf8": {
-    "prefix": ["#f4fcf8"],
+    "prefix": ["#f4fcf8", "#F4FCF8"],
 		"body": [
 			"\\$spark-color-green-lightest"
 		],
 		"description": "$spark-color-green-lightest"
 	},
   "color: #e5f8ef": {
-    "prefix": ["#e5f8ef"],
+    "prefix": ["#e5f8ef", "#E5F8EF"],
 		"body": [
 			"\\$spark-color-green-lighter"
 		],
 		"description": "$spark-color-green-lighter"
 	},
   "color: #32cb82": {
-    "prefix": ["#32cb82"],
+    "prefix": ["#32cb82", "#32CB82"],
 		"body": [
 			"\\$spark-color-green-light"
 		],
 		"description": "$spark-color-green-light"
 	},
   "color: #00bf63": {
-    "prefix": ["#00bf63"],
+    "prefix": ["#00bf63", "#00BF63"],
 		"body": [
 			"\\$spark-color-green"
 		],
 		"description": "$spark-color-green"
 	},
   "color: #00984f": {
-    "prefix": ["#00984f"],
+    "prefix": ["#00984f", "#00984F"],
 		"body": [
 			"\\$spark-color-green-dark"
 		],
 		"description": "$spark-color-green-dark"
 	},
   "color: #005f31": {
-    "prefix": ["#005f31"],
+    "prefix": ["#005f31", "#005F31"],
 		"body": [
 			"\\$spark-color-green-darker"
 		],
 		"description": "$spark-color-green-darker"
 	},
   "color: #32503c": {
-    "prefix": ["#32503c"],
+    "prefix": ["#32503c", "#32503C"],
 		"body": [
 			"\\$spark-color-green-text"
 		],
@@ -343,49 +343,49 @@
 	},
   // --------------------------------------- Colors (Yellows) ----------------------------------
   "color: #fffcf4": {
-    "prefix": ["#fffcf4"],
+    "prefix": ["#fffcf4", "#FFFCF4"],
 		"body": [
 			"\\$spark-color-yellow-lightest"
 		],
 		"description": "$spark-color-yellow-lightest"
 	},
   "color: #fff8e5": {
-    "prefix": ["#fff8e5"],
+    "prefix": ["#fff8e5", "#FFF8E5"],
 		"body": [
 			"\\$spark-color-yellow-lighter"
 		],
 		"description": "$spark-color-yellow-lighter"
 	},
   "color: #ffc932": {
-    "prefix": ["#ffc932"],
+    "prefix": ["#ffc932", "#FFC932"],
 		"body": [
 			"\\$spark-color-yellow-light"
 		],
 		"description": "$spark-color-yellow-light"
 	},
   "color: #ffbc00": {
-    "prefix": ["#ffbc00"],
+    "prefix": ["#ffbc00", "#FFBC00"],
 		"body": [
 			"\\$spark-color-yellow"
 		],
 		"description": "$spark-color-yellow"
 	},
   "color: #cc9600": {
-    "prefix": ["#cc9600"],
+    "prefix": ["#cc9600", "#CC9600"],
 		"body": [
 			"\\$spark-color-yellow-dark"
 		],
 		"description": "$spark-color-yellow-dark"
 	},
   "color: #7f5e00": {
-    "prefix": ["#7f5e00"],
+    "prefix": ["#7f5e00", "#7F5E00"],
 		"body": [
 			"\\$spark-color-yellow-darker"
 		],
 		"description": "$spark-color-yellow-darker"
 	},
   "color: #604f36": {
-    "prefix": ["#604f36"],
+    "prefix": ["#604f36", "#604F36"],
 		"body": [
 			"\\$spark-color-yellow-text"
 		],
@@ -393,49 +393,49 @@
 	},
   // --------------------------------------- Colors (Oranges) ----------------------------------
   "color: #fffbf4": {
-    "prefix": ["#fffbf4"],
+    "prefix": ["#fffbf4", "#FFFBF4"],
 		"body": [
 			"\\$spark-color-orange-lightest"
 		],
 		"description": "$spark-color-orange-lightest"
 	},
   "color: #fff6e5": {
-    "prefix": ["#fff6e5"],
+    "prefix": ["#fff6e5", "#FFF6E5"],
 		"body": [
 			"\\$spark-color-orange-lighter"
 		],
 		"description": "$spark-color-orange-lighter"
 	},
   "color: #ffa232": {
-    "prefix": ["#ffa232"],
+    "prefix": ["#ffa232", "#FFA232"],
 		"body": [
 			"\\$spark-color-orange-light"
 		],
 		"description": "$spark-color-orange-light"
 	},
   "color: #ffa500": {
-    "prefix": ["#ffa500"],
+    "prefix": ["#ffa500", "#FFA500"],
 		"body": [
 			"\\$spark-color-orange"
 		],
 		"description": "$spark-color-orange"
 	},
   "color: #cc8400": {
-    "prefix": ["#cc8400"],
+    "prefix": ["#cc8400", "#CC8400"],
 		"body": [
 			"\\$spark-color-orange-dark"
 		],
 		"description": "$spark-color-orange-dark"
 	},
   "color: #7f5200": {
-    "prefix": ["#7f5200"],
+    "prefix": ["#7f5200", "#7F5200"],
 		"body": [
 			"\\$spark-color-orange-darker"
 		],
 		"description": "$spark-color-orange-darker"
 	},
   "color: #624b35": {
-    "prefix": ["#624b35"],
+    "prefix": ["#624b35", "#624B35"],
 		"body": [
 			"\\$spark-color-orange-text"
 		],
@@ -443,49 +443,49 @@
 	},
 // --------------------------------------- Colors (Reds) ----------------------------------
   "color: #fef7f5": {
-    "prefix": ["#fef7f5"],
+    "prefix": ["#fef7f5", "#FEF7F5"],
 		"body": [
 			"\\$spark-color-red-lightest"
 		],
 		"description": "$spark-color-red-lightest"
 	},
   "color: #fdece8": {
-    "prefix": ["#fdece8"],
+    "prefix": ["#fdece8", "#FDECE8"],
 		"body": [
 			"\\$spark-color-red-lighter"
 		],
 		"description": "$spark-color-red-lighter"
 	},
   "color: #f4674c": {
-    "prefix": ["#f4674c"],
+    "prefix": ["#f4674c", "#F4674C"],
 		"body": [
 			"\\$spark-color-red-light"
 		],
 		"description": "$spark-color-red-light"
 	},
   "color: #f24220": {
-    "prefix": ["#f24220"],
+    "prefix": ["#f24220", "#F24220"],
 		"body": [
 			"\\$spark-color-red"
 		],
 		"description": "$spark-color-red"
 	},
   "color: #c13419": {
-    "prefix": ["#c13419"],
+    "prefix": ["#c13419", "#C13419"],
 		"body": [
 			"\\$spark-color-red-dark"
 		],
 		"description": "$spark-color-red-dark"
 	},
   "color: #792110": {
-    "prefix": ["#792110"],
+    "prefix": ["#792110", "#792110"],
 		"body": [
 			"\\$spark-color-red-darker"
 		],
 		"description": "$spark-color-red-darker"
 	},
   "color: #603a36": {
-    "prefix": ["#603a36"],
+    "prefix": ["#603a36", "#603A36"],
 		"body": [
 			"\\$spark-color-red-text"
 		],
@@ -493,42 +493,42 @@
 	},
 // --------------------------------------- Colors (Skys) ----------------------------------
   "color: #ffffff": {
-    "prefix": ["#ffffff"],
+    "prefix": ["#ffffff", "#FFFFFF"],
 		"body": [
 			"\\$spark-color-sky-white"
 		],
 		"description": "$spark-color-sky-white"
 	},
   "color: #fcfcfd": {
-    "prefix": ["#fcfcfd"],
+    "prefix": ["#fcfcfd", "#FCFCFD"],
 		"body": [
 			"\\$spark-color-sky-lightest"
 		],
 		"description": "$spark-color-sky-lightest"
 	},
   "color: #f9fafc": {
-    "prefix": ["#f9fafc"],
+    "prefix": ["#f9fafc", "#F9FAFC"],
 		"body": [
 			"\\$spark-color-sky-lighter"
 		],
 		"description": "$spark-color-sky-lighter"
 	},
   "color: #f2f4f8": {
-    "prefix": ["#f2f4f8"],
+    "prefix": ["#f2f4f8", "#F2F4F8"],
 		"body": [
 			"\\$spark-color-sky-light"
 		],
 		"description": "$spark-color-sky-light"
 	},
   "color: #dcdee3": {
-    "prefix": ["#dcdee3"],
+    "prefix": ["#dcdee3", "#DCDEE3"],
 		"body": [
 			"\\$spark-color-sky-dark"
 		],
 		"description": "$spark-color-sky-dark"
 	},
   "color: #b7bac0": {
-    "prefix": ["#b7bac0"],
+    "prefix": ["#b7bac0", "#B7BAC0"],
 		"body": [
 			"\\$spark-color-sky-darker"
 		],
@@ -537,28 +537,28 @@
 // --------------------------------------- Colors (Ink) ----------------------------------
 
   "color: #a1a7b2": {
-    "prefix": ["#a1a7b2"],
+    "prefix": ["#a1a7b2", "#A1A7B2"],
 		"body": [
 			"\\$spark-color-ink-lightest"
 		],
 		"description": "$spark-color-ink-lightest"
 	},
   "color: #737c8b": {
-    "prefix": ["#737c8b"],
+    "prefix": ["#737c8b", "#737C8B"],
 		"body": [
 			"\\$spark-color-ink-lighter"
 		],
 		"description": "$spark-color-ink-lighter"
 	},
   "color: #445065": {
-    "prefix": ["#445065"],
+    "prefix": ["#445065", "#445065"],
 		"body": [
 			"\\$spark-color-ink-light"
 		],
 		"description": "$spark-color-ink-light"
 	},
   "color: #16253f": {
-    "prefix": ["#16253f"],
+    "prefix": ["#16253f", "#16253F"],
 		"body": [
 			"\\$spark-color-ink"
 		],
@@ -567,28 +567,28 @@
 // --------------------------------------- Colors (Ink) ----------------------------------
 
   "color: #e5e5e5": {
-    "prefix": ["#e5e5e5"],
+    "prefix": ["#e5e5e5", "#E5E5E5"],
 		"body": [
 			"\\$spark-color-black-lightest"
 		],
 		"description": "$spark-color-black-lightest"
 	},
   "color: #999999": {
-    "prefix": ["#999999"],
+    "prefix": ["#999999", "#999999"],
 		"body": [
 			"\\$spark-color-black-lighter"
 		],
 		"description": "$spark-color-black-lighter"
 	},
   "color: #4c4c4c": {
-    "prefix": ["#4c4c4c"],
+    "prefix": ["#4c4c4c", "#4C4C4C"],
 		"body": [
 			"\\$spark-color-black-light"
 		],
 		"description": "$spark-color-black-light"
 	},
   "color: #000000": {
-    "prefix": ["#000000"],
+    "prefix": ["#000000", "#000000"],
 		"body": [
 			"\\$spark-color-black"
 		],
@@ -596,28 +596,28 @@
 	},
 // --------------------------------------- Colors (Greys) ----------------------------------
   "color: #f2f2f2": {
-    "prefix": ["#f2f2f2"],
+    "prefix": ["#f2f2f2", "#F2F2F2"],
 		"body": [
 			"\\$spark-color-grey-lightest"
 		],
 		"description": "$spark-color-grey-lightest"
 	},
   "color: #cccccc": {
-    "prefix": ["#cccccc"],
+    "prefix": ["#cccccc", "#CCCCCC"],
 		"body": [
 			"\\$spark-color-grey-lighter"
 		],
 		"description": "$spark-color-grey-lighter"
 	},
   "color: #a6a6a6": {
-    "prefix": ["#a6a6a6"],
+    "prefix": ["#a6a6a6", "#A6A6A6"],
 		"body": [
 			"\\$spark-color-grey-light"
 		],
 		"description": "$spark-color-grey-light"
 	},
   "color: #808080": {
-    "prefix": ["#808080"],
+    "prefix": ["#808080", "#808080"],
 		"body": [
 			"\\$spark-color-grey"
 		],
@@ -632,140 +632,140 @@
 	},
 // --------------------------------------- Colors (Sequential) ----------------------------------
   "color: #043489": {
-    "prefix": ["#043489"],
+    "prefix": ["#043489", "#043489"],
 		"body": [
 			"\\$spark-color-sequential-1"
 		],
 		"description": "$spark-color-sequential-1"
 	},
   "color: #094ca5": {
-    "prefix": ["#094ca5"],
+    "prefix": ["#094ca5", "#094CA5"],
 		"body": [
 			"\\$spark-color-sequential-2"
 		],
 		"description": "$spark-color-sequential-2"
 	},
   "color: #0b58b3": {
-    "prefix": ["#0b58b3"],
+    "prefix": ["#0b58b3", "#0B58B3"],
 		"body": [
 			"\\$spark-color-sequential-3"
 		],
 		"description": "$spark-color-sequential-3"
 	},
   "color: #0b6ecd": {
-    "prefix": ["#0b6ecd"],
+    "prefix": ["#0b6ecd", "#0B6ECD"],
 		"body": [
 			"\\$spark-color-sequential-4"
 		],
 		"description": "$spark-color-sequential-4"
 	},
   "color: #0a78d9": {
-    "prefix": ["#0a78d9"],
+    "prefix": ["#0a78d9", "#0A78D9"],
 		"body": [
 			"\\$spark-color-sequential-5"
 		],
 		"description": "$spark-color-sequential-5"
 	},
   "color: #2285dc": {
-    "prefix": ["#2285dc"],
+    "prefix": ["#2285dc", "#2285DC"],
 		"body": [
 			"\\$spark-color-sequential-6"
 		],
 		"description": "$spark-color-sequential-6"
 	},
   "color: #3a93e0": {
-    "prefix": ["#3a93e0"],
+    "prefix": ["#3a93e0", "#3A93E0"],
 		"body": [
 			"\\$spark-color-sequential-7"
 		],
 		"description": "$spark-color-sequential-7"
 	},
   "color: #53a0e4": {
-    "prefix": ["#53a0e4"],
+    "prefix": ["#53a0e4", "#53A0E4"],
 		"body": [
 			"\\$spark-color-sequential-8"
 		],
 		"description": "$spark-color-sequential-8"
 	},
   "color: #6caee8": {
-    "prefix": ["#6caee8"],
+    "prefix": ["#6caee8", "#6CAEE8"],
 		"body": [
 			"\\$spark-color-sequential-9"
 		],
 		"description": "$spark-color-sequential-9"
 	},
   "color: #84bbec": {
-    "prefix": ["#84bbec"],
+    "prefix": ["#84bbec", "#84BBEC"],
 		"body": [
 			"\\$spark-color-sequential-10"
 		],
 		"description": "$spark-color-sequential-10"
 	},
   "color: #9dc9ef": {
-    "prefix": ["#9dc9ef"],
+    "prefix": ["#9dc9ef", "#9DC9EF"],
 		"body": [
 			"\\$spark-color-sequential-11"
 		],
 		"description": "$spark-color-sequential-11"
 	},
   "color: #b5d6f3": {
-    "prefix": ["#b5d6f3"],
+    "prefix": ["#b5d6f3", "#B5D6F3"],
 		"body": [
 			"\\$spark-color-sequential-12"
 		],
 		"description": "$spark-color-sequential-12"
 	},
   "color: #cee4f7": {
-    "prefix": ["#cee4f7"],
+    "prefix": ["#cee4f7", "#CEE4F7"],
 		"body": [
 			"\\$spark-color-sequential-13"
 		],
 		"description": "$spark-color-sequential-13"
 	},
   "color: #e6f1fb": {
-    "prefix": ["#e6f1fb"],
+    "prefix": ["#e6f1fb", "#E6F1FB"],
 		"body": [
 			"\\$spark-color-sequential-14"
 		],
 		"description": "$spark-color-sequential-14"
 	},
   "color: #7f93bc": {
-    "prefix": ["#7f93bc"],
+    "prefix": ["#7f93bc", "#7F93BC"],
 		"body": [
 			"\\$spark-color-categorical-navy-blue"
 		],
 		"description": "$spark-color-categorical-navy-blue"
 	},
   "color: #7fccff": {
-    "prefix": ["#7fccff"],
+    "prefix": ["#7fccff", "#7FCCFF"],
 		"body": [
 			"\\$spark-color-categorical-blue"
 		],
 		"description": "$spark-color-categorical-blue"
 	},
   "color: #7fdfb1": {
-    "prefix": ["#7fdfb1"],
+    "prefix": ["#7fdfb1", "#7FDFB1"],
 		"body": [
 			"\\$spark-color-categorical-green"
 		],
 		"description": "$spark-color-categorical-green"
 	},
   "color: #ffdd7f": {
-    "prefix": ["#ffdd7f"],
+    "prefix": ["#ffdd7f", "#FFDD7F"],
 		"body": [
 			"\\$spark-color-categorical-yellow"
 		],
 		"description": "$spark-color-categorical-yellow"
 	},
   "color: #ffc57f": {
-    "prefix": ["#ffc57f"],
+    "prefix": ["#ffc57f", "#FFC57F"],
 		"body": [
 			"\\$spark-color-categorical-orange"
 		],
 		"description": "$spark-color-categorical-orange"
 	},
   "color: #f8a08f": {
-    "prefix": ["#f8a08f"],
+    "prefix": ["#f8a08f", "#F8A08F"],
 		"body": [
 			"\\$spark-color-categorical-red"
 		],
