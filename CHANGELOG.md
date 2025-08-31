@@ -4,6 +4,17 @@ All notable changes to the "sparked" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.7]
+
+- Fixed case sensitivity issue with color hex codes
+  - Added uppercase versions of all color hex codes to support both lowercase and uppercase input
+  - Now works with colors like `#F4F6F9`, `#E5E9F1`, etc. in addition to lowercase versions
+
+## [0.0.6]
+
+- Added sequential and categorical color snippets
+- Added transparent color snippet
+
 ## [0.0.5]
 
 - Updated blue color naming convention from descriptive names to numbered system
