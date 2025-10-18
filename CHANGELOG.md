@@ -4,6 +4,17 @@ All notable changes to the "sparked" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.11]
+
+- Added comprehensive color palette update with all new Spark design system colors
+- Added new Blue color variants (blue-700, blue-800)
+- Added complete Chartreuse color system (50-800)
+- Added complete Teal color system (100-800)
+- Added complete Pink color system (50-800)
+- Added new Yellow color system (50-800) alongside existing yellow colors
+- Added sequential-0 color for data visualization
+- All colors support both lowercase and uppercase hex codes for case sensitivity
+
 ## [0.0.10]
 
 - Reverted to snippets-only approach for better reliability
